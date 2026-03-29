@@ -76,14 +76,10 @@ AI-ассистент для подбора товаров с встраивае
 cp .env.example .env
 ```
 
-Вставьте туда свой ключ Mistral. Если ключа нет, попросите его в `tg: madvas`.
+Вставьте **API-ключ OpenAI** ([platform.openai.com](https://platform.openai.com/api-keys)).
 
 ```env
-MISTRAL_API_KEY=your_api_key_here
-# Необязательно: путь к SQLite-базе каталога
-# PRODUCTS_DB_PATH=back/database/products.db
-# Необязательно: имя таблицы с товарами
-# PRODUCTS_TABLE=products
+OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 ### 2. Соберите и запустите контейнер
